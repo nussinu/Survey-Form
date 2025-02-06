@@ -1,0 +1,72 @@
+body{
+  background-color: #D4922F;
+  font-family: Tahoma;
+  width: 30%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+main {
+  text-align: center;
+}
+
+#description {
+  font-size: 1.15rem
+}
+
+#-margin {
+  margin-top: -5px;
+  margin-bottom: -0.5px;
+}
+
+fieldset {
+  border-width: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px
+}
+
+legend {
+  font-size: 1.15rem;
+  margin: 0 auto;
+}
+
+input, textarea {
+  font-size: 1.15rem;
+  width: 100%;
+}
+
+select {
+  font-size: 1.15rem;
+  width: 25%
+}
+
+.submit {
+  background-color: green;
+  border:  white solid;
+  border-width: 1px;
+  border-radius: 10px
+}
+
+#dly-label, #dln-label, #own-car, #terms {
+  width: 15px;
+  height: 15px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  transform: scale(1.2)
+}
+
+input[type="checkbox"] {
+  margin-left: 1rem;
+  margin-right: 8px;
+}
+
+label {
+  padding-top: 200px;
+  padding-bottom: 200px
+}
+
+fieldset:last-of-type {
+  margin-top: 10px
+}

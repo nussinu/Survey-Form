@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/> 
+    <meta name="viewport" content="width=device-width;initial-scale=1"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form: Transportation</title>
+  </head>
+  <body>
+    <main>
+    <h1 id="title">Means of Transportation Survey Form</h1>
+    <p id="description">This is a survey about your means of transport</p>
+    </main>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Personal information</legend>
+        <label id="name-label" for="name">Name: <br/><input id="name" type="text" required placeholder="Max Mustermann"></label>
+        <label id="email-label" for="email">Email: <br/><input id="email" type="email" required placeholder="maxmustermann@gmx.de"></input></label>
+        <label id="number-label" for="number">Age: <br/><input id="number" type="number" min="18" max="99" required placeholder="25"></input></label>
+        <label id="city-label" for="city">City: <br/><input id="city" type="text" required placeholder="Köln"></input></label>
+      </fieldset>
+      <fieldset>
+        <legend>Transportation information</legend>
+        <p id="-margin">Do you have a driving license:</p>
+          <label for="dly-label"><input id="dly-label" type="radio" name="dl" value="yes" class="inline" checked></input> Yes</label>
+          <label for="dln-label"><input id="dln-label" type="radio" name="dl" value="no" class="inline"></input> No</label><br/>
+          <label for="own-car">Do you own a car?<input id="own-car" type="checkbox" value="yes">Yes</input></label><br/>
+          <label for="dropdown">Which means of transport do you use most often?
+            <select id="dropdown">
+              <option>Car</option>
+              <option>Bike</option>
+              <option>Bus</option>
+              <option>Train</option>
+              <option>Others</option>
+            </select>
+          </label></br>
+          <label for="additional-info">If you chose Others, please give additional information:<textarea id="additional-info" rows="3" cols="30" placeholder="Additional information"></textarea></label>
+      </fieldset>
+      <fieldset>
+        <label for="terms">I have read and agree to the terms and conditions<input id="terms" type="checkbox" value="yes"></input></label>
+        <label for="submit"><input class="submit" id="submit" type="submit"></input></label>
+      </fieldset> 
+    </form>
+  </body>
+</html>
